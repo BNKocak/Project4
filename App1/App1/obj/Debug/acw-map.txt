@@ -1,4 +1,4 @@
-App1.MainActivity, App1;md5579855c995bdb073d8182511e793544c.MainActivity
-App1.MainActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.MainActivity
-App1.MainActivity;md5579855c995bdb073d8182511e793544c.MainActivity
-app1.MainActivity;md5579855c995bdb073d8182511e793544c.MainActivity
+Phoneword.MainActivity, App1;md59ee03f96374e55088b8f4b8795372cd4.MainActivity
+Phoneword.MainActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md59ee03f96374e55088b8f4b8795372cd4.MainActivity
+Phoneword.MainActivity;md59ee03f96374e55088b8f4b8795372cd4.MainActivity
+phoneword.MainActivity;md59ee03f96374e55088b8f4b8795372cd4.MainActivity

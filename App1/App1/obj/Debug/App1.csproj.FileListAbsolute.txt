@@ -36,4 +36,41 @@ C:\Users\Burhan\Desktop\App1\App1\obj\Debug\android\assets\System.ServiceModel.I
 C:\Users\Burhan\Desktop\App1\App1\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Burhan\Desktop\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Burhan\Desktop\App1\App1\obj\Debug\App1.dll.mdb
-C:\Users\Burhan\Desktop\App1\App1\bin\Debug\App1.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.dll
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.pdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.App1.apk
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.App1-Signed.apk
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\App1.dll
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\App1.pdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\bin\App1.App1.apk
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\res\layout\main.xml
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\res\values\strings.xml
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\res\drawable\icon.png
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\R.cs.flag
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\uploadflags.txt
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Java.Interop.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Mono.Android.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\mscorlib.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.Core.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.Xml.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\App1.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\App1.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.dll.mdb

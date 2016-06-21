@@ -5,14 +5,13 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using App1;
 
-namespace App1
+namespace Phoneword
 {
-    [Activity(Label = "App1", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Phoneword", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        int count = 1;
-
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -20,12 +19,32 @@ namespace App1
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
+            // Our code will go here
+            EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
+            Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
+            Button callButton = FindViewById<Button>(Resource.Id.CallButton);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            // Disable the "Call" button
+            callButton.Enabled = false;
+
+            // Add code to translate number
+            string translatedNumber = string.Empty;
+
+            translateButton.Click += (object sender, EventArgs e) =>
+            {
+                // Translate user's alphanumeric phone number to numeric
+                translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
+                if (String.IsNullOrWhiteSpace(translatedNumber))
+                {
+                    callButton.Text = "Call";
+                    callButton.Enabled = false;
+                }
+                else
+                {
+                    callButton.Text = "Call " + translatedNumber;
+                    callButton.Enabled = true;
+                }
+            };
         }
     }
 }
-
