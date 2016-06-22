@@ -73,5 +73,12 @@ C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\S
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Syncfusion.Linq.Android.dll
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Syncfusion.SfChart.Android.dll
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\res\layout\vraag1_layout.xml
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Mono.CSharp.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\Mono.CSharp.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\App1.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.dll.mdb

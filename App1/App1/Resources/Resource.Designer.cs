@@ -26,6 +26,32 @@ namespace App1
 		
 		public static void UpdateIdValues()
 		{
+			global::Syncfusion.Data.Resource.String.library_name = global::App1.Resource.String.library_name;
+		}
+		
+		public partial class Animation
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int fadein = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int fadeout = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int scale_in = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int scale_out = 2130968579;
+			
+			static Animation()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Animation()
+			{
+			}
 		}
 		
 		public partial class Attribute
@@ -60,32 +86,89 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int PhoneNumberText = 2131034113;
+			// aapt resource value: 0x7f06000f
+			public const int PhoneNumberText = 2131099663;
 			
-			// aapt resource value: 0x7f050002
-			public const int Vraag1 = 2131034114;
+			// aapt resource value: 0x7f060010
+			public const int Vraag1 = 2131099664;
 			
-			// aapt resource value: 0x7f050003
-			public const int Vraag2 = 2131034115;
+			// aapt resource value: 0x7f060011
+			public const int Vraag2 = 2131099665;
 			
-			// aapt resource value: 0x7f050004
-			public const int Vraag3 = 2131034116;
+			// aapt resource value: 0x7f060012
+			public const int Vraag3 = 2131099666;
 			
-			// aapt resource value: 0x7f050005
-			public const int Vraag4 = 2131034117;
+			// aapt resource value: 0x7f060013
+			public const int Vraag4 = 2131099667;
 			
-			// aapt resource value: 0x7f050006
-			public const int Vraag5 = 2131034118;
+			// aapt resource value: 0x7f060014
+			public const int Vraag5 = 2131099668;
 			
-			// aapt resource value: 0x7f050007
-			public const int Vraag6 = 2131034119;
+			// aapt resource value: 0x7f060015
+			public const int Vraag6 = 2131099669;
 			
-			// aapt resource value: 0x7f050008
-			public const int Vraag7 = 2131034120;
+			// aapt resource value: 0x7f060016
+			public const int Vraag7 = 2131099670;
 			
-			// aapt resource value: 0x7f050000
-			public const int textView1 = 2131034112;
+			// aapt resource value: 0x7f060007
+			public const int axisLayout = 2131099655;
+			
+			// aapt resource value: 0x7f060018
+			public const int bottom_labels = 2131099672;
+			
+			// aapt resource value: 0x7f060002
+			public const int chartAreaLayout = 2131099650;
+			
+			// aapt resource value: 0x7f060001
+			public const int chartTitle = 2131099649;
+			
+			// aapt resource value: 0x7f060019
+			public const int content = 2131099673;
+			
+			// aapt resource value: 0x7f060006
+			public const int dataMarkerLayout = 2131099654;
+			
+			// aapt resource value: 0x7f060003
+			public const int gridLineLayout = 2131099651;
+			
+			// aapt resource value: 0x7f06001a
+			public const int gridLinesLayout = 2131099674;
+			
+			// aapt resource value: 0x7f06000c
+			public const int iconView = 2131099660;
+			
+			// aapt resource value: 0x7f06000d
+			public const int label = 2131099661;
+			
+			// aapt resource value: 0x7f060009
+			public const int legendHeader = 2131099657;
+			
+			// aapt resource value: 0x7f06000b
+			public const int legendItemsLayout = 2131099659;
+			
+			// aapt resource value: 0x7f06000a
+			public const int legendScrollView = 2131099658;
+			
+			// aapt resource value: 0x7f060008
+			public const int legendViewGroup = 2131099656;
+			
+			// aapt resource value: 0x7f060000
+			public const int rootLayout = 2131099648;
+			
+			// aapt resource value: 0x7f060005
+			public const int seriesLayout = 2131099653;
+			
+			// aapt resource value: 0x7f060004
+			public const int stripLinesLayout = 2131099652;
+			
+			// aapt resource value: 0x7f06000e
+			public const int textView1 = 2131099662;
+			
+			// aapt resource value: 0x7f06001b
+			public const int thumbLayout = 2131099675;
+			
+			// aapt resource value: 0x7f060017
+			public const int top_labels = 2131099671;
 			
 			static Id()
 			{
@@ -101,7 +184,22 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int chart_layout = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int chart_legend = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int chart_legend_item = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int range_navigator_layout = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Vraag1_Layout = 2130903045;
 			
 			static Layout()
 			{
@@ -116,14 +214,29 @@ namespace App1
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7f050006
+			public const int ApplicationName = 2131034118;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7f050005
+			public const int Hello = 2131034117;
 			
-			// aapt resource value: 0x7f040002
-			public const int Vraag1 = 2130968578;
+			// aapt resource value: 0x7f050007
+			public const int Vraag1 = 2131034119;
+			
+			// aapt resource value: 0x7f050004
+			public const int library_name = 2131034116;
+			
+			// aapt resource value: 0x7f050000
+			public const int q = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int quarter = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int w = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int week = 2131034115;
 			
 			static String()
 			{

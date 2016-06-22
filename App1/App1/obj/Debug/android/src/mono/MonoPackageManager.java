@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "App1.dll" comes first in this list. */
 		"App1.dll",
 		"Java.Interop.dll",
+		"Syncfusion.Linq.Android.dll",
+		"Syncfusion.SfChart.Android.dll",
 		"System.Threading.dll",
 		"System.Runtime.dll",
 		"System.Collections.dll",

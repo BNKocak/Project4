@@ -6,12 +6,14 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using App1;
+using Com.Syncfusion.Charts;
 
 namespace Phoneword
 {
     [Activity(Label = "Fiets Info Rotterdam", MainLauncher = true)]
     public class MainActivity : Activity
     {
+        //SfChart sfchart;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
