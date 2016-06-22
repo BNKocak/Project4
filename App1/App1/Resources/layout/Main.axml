@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:text="Enter a Phoneword:"
+        android:text="Welkom bij Fiets Info Rotterdam."
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,15 +13,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/PhoneNumberText"
-        android:text="1-855-XAMARIN" />
+        android:text="Wat zou je graag willen weten?" />
     <Button
-        android:text="Translate"
+        android:text="De 5 buurten met de meeste fietstrommels"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/TranslateButton" />
     <Button
-        android:text="Call"
+        android:text="Het aantal gestolen fietsen per maand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/CallButton" />
+    <Button
+        android:text="Het aantal gestolen fietsen per geplaatste fietstrommel in een buurt naar keuze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <Button
+        android:text="De meest gestolen fiets merken en kleuren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    <Button
+        android:text="Uw huidige locatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3" />
+    <Button
+        android:text="Het aantal gestolen fietsen per wijk (heatmap)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+    <Button
+        android:text="De dichtstbijzijnde fietstrommel + route indicatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
 </LinearLayout>

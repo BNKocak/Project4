@@ -9,7 +9,7 @@ using App1;
 
 namespace Phoneword
 {
-    [Activity(Label = "Phoneword", MainLauncher = true)]
+    [Activity(Label = "Fiets Info Rotterdam", MainLauncher = true)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -24,27 +24,27 @@ namespace Phoneword
             Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
             Button callButton = FindViewById<Button>(Resource.Id.CallButton);
 
-            // Disable the "Call" button
-            callButton.Enabled = false;
+            //// Disable the "Call" button
+            //callButton.Enabled = false;
 
-            // Add code to translate number
-            string translatedNumber = string.Empty;
+            //// Add code to translate number
+            //string translatedNumber = string.Empty;
 
-            translateButton.Click += (object sender, EventArgs e) =>
-            {
-                // Translate user's alphanumeric phone number to numeric
-                translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
-                if (String.IsNullOrWhiteSpace(translatedNumber))
-                {
-                    callButton.Text = "Call";
-                    callButton.Enabled = false;
-                }
-                else
-                {
-                    callButton.Text = "Call " + translatedNumber;
-                    callButton.Enabled = true;
-                }
-            };
+            //translateButton.Click += (object sender, EventArgs e) =>
+            //{
+            //    // Translate user's alphanumeric phone number to numeric
+            //    translatedNumber = Core.PhonewordTranslator.ToNumber(phoneNumberText.Text);
+            //    if (String.IsNullOrWhiteSpace(translatedNumber))
+            //    {
+            //        callButton.Text = "Call";
+            //        callButton.Enabled = false;
+            //    }
+            //    else
+            //    {
+            //        callButton.Text = "Call " + translatedNumber;
+            //        callButton.Enabled = true;
+            //    }
+            //};
         }
     }
 }

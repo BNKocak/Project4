@@ -17,6 +17,11 @@ public final class R {
         public static final int CallButton=0x7f050003;
         public static final int PhoneNumberText=0x7f050001;
         public static final int TranslateButton=0x7f050002;
+        public static final int button1=0x7f050004;
+        public static final int button2=0x7f050005;
+        public static final int button3=0x7f050006;
+        public static final int button4=0x7f050007;
+        public static final int button5=0x7f050008;
         public static final int textView1=0x7f050000;
     }
     public static final class layout {
