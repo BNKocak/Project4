@@ -36,6 +36,7 @@ public final class R {
         public static final int btnGetData=0x7f060011;
         public static final int btnGetDataByID=0x7f060012;
         public static final int btnInstert=0x7f060010;
+        public static final int btnSearch=0x7f060028;
         public static final int btnTask=0x7f060018;
         public static final int btnUpdate=0x7f060013;
         public static final int chartAreaLayout=0x7f060002;
@@ -55,9 +56,12 @@ public final class R {
         public static final int stripLinesLayout=0x7f060004;
         public static final int textView1=0x7f060015;
         public static final int textView2=0x7f060016;
+        public static final int textView3=0x7f060029;
         public static final int thumbLayout=0x7f060025;
         public static final int top_labels=0x7f060021;
         public static final int txtTask=0x7f060017;
+        public static final int txtTaskID=0x7f060026;
+        public static final int txtTaskId=0x7f060027;
     }
     public static final class layout {
         public static final int chart_layout=0x7f030000;
@@ -67,7 +71,10 @@ public final class R {
         public static final int inserttasklayout=0x7f030004;
         public static final int main=0x7f030005;
         public static final int range_navigator_layout=0x7f030006;
-        public static final int vraag1_layout=0x7f030007;
+        public static final int removetask_layout=0x7f030007;
+        public static final int searchlayout=0x7f030008;
+        public static final int updatetasklayout=0x7f030009;
+        public static final int vraag1_layout=0x7f03000a;
     }
     public static final class string {
         public static final int ApplicationName=0x7f050006;

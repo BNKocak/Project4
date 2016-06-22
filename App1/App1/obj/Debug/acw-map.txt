@@ -10,6 +10,18 @@ App1.InsertTask_Activity, App1;md5579855c995bdb073d8182511e793544c.InsertTask_Ac
 App1.InsertTask_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
 App1.InsertTask_Activity;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
 app1.InsertTask_Activity;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
+App1.RemoveTask_Activity, App1;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
+App1.RemoveTask_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
+App1.RemoveTask_Activity;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
+app1.RemoveTask_Activity;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
+App1.Search_Activity, App1;md5579855c995bdb073d8182511e793544c.Search_Activity
+App1.Search_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.Search_Activity
+App1.Search_Activity;md5579855c995bdb073d8182511e793544c.Search_Activity
+app1.Search_Activity;md5579855c995bdb073d8182511e793544c.Search_Activity
+App1.UpdateTask_Activity, App1;md5579855c995bdb073d8182511e793544c.UpdateTask_Activity
+App1.UpdateTask_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.UpdateTask_Activity
+App1.UpdateTask_Activity;md5579855c995bdb073d8182511e793544c.UpdateTask_Activity
+app1.UpdateTask_Activity;md5579855c995bdb073d8182511e793544c.UpdateTask_Activity
 App1.Vraag1_Activity, App1;md5579855c995bdb073d8182511e793544c.Vraag1_Activity
 App1.Vraag1_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.Vraag1_Activity
 App1.Vraag1_Activity;md5579855c995bdb073d8182511e793544c.Vraag1_Activity

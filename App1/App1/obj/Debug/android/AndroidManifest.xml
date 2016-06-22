@@ -14,6 +14,9 @@
     </activity>
     <activity android:label="Database" android:name="md5579855c995bdb073d8182511e793544c.database_Activity" />
     <activity android:label="InsertTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.InsertTask_Activity" />
+    <activity android:label="RemoveTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.RemoveTask_Activity" />
+    <activity android:label="Search_Activity" android:name="md5579855c995bdb073d8182511e793544c.Search_Activity" />
+    <activity android:label="UpdateTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.UpdateTask_Activity" />
     <activity android:label="@string/Vraag1" android:name="md5579855c995bdb073d8182511e793544c.Vraag1_Activity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App1.App1.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

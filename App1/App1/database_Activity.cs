@@ -35,6 +35,33 @@ namespace App1
             // to retrieve the data
             Button btnGetAll = FindViewById<Button>(Resource.Id.btnGetData);
             btnGetAll.Click += btnGetAll_Click;
+
+            // to retrieve specifick record
+            Button btnGetById = FindViewById<Button>(Resource.Id.btnGetDataByID);
+            btnGetById.Click += btnGetById_Click;
+
+            // To Update record
+            Button btnUpdate = FindViewById<Button>(Resource.Id.btnUpdate);
+            btnUpdate.Click += btnUpdate_Click;
+
+            // to delete record
+            Button btnDelete = FindViewById<Button>(Resource.Id.btnDelete);
+            btnDelete.Click += btnDelete_Click;
+        }
+
+        void btnDelete_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(RemoveTask_Activity));
+        }
+
+        void btnUpdate_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(UpdateTask_Activity));
+        }
+
+        void btnGetById_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(Search_Activity));
         }
 
         void btnGetAll_Click(object sender, EventArgs e)

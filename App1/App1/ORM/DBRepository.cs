@@ -69,6 +69,38 @@ namespace App1
             }
             return output;
         }
+
+        //code to retrieve specific record using ORM
+        public string GetTaskById(int id)
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+
+            var item = db.Get<ToDoTask>(id);
+            return item.Task;
+        }
+
+        //code to update the record using ORM
+        public string updateRecord( int id, string task)
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+
+            var item = db.Get<ToDoTask>(id);
+            item.Task = task;
+            db.Update(item);
+            return "Record Updated...";
+        }
+
+        //code to remove the record using ORM
+        public string RemoveTask(int id)
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+            var item = db.Get<ToDoTask>(id);
+            db.Delete(item);
+            return "Record Deleted..";
+        }
     }
 }
 

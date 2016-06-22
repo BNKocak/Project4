@@ -134,6 +134,9 @@ namespace App1
 			// aapt resource value: 0x7f060010
 			public const int btnInstert = 2131099664;
 			
+			// aapt resource value: 0x7f060028
+			public const int btnSearch = 2131099688;
+			
 			// aapt resource value: 0x7f060018
 			public const int btnTask = 2131099672;
 			
@@ -191,6 +194,9 @@ namespace App1
 			// aapt resource value: 0x7f060016
 			public const int textView2 = 2131099670;
 			
+			// aapt resource value: 0x7f060029
+			public const int textView3 = 2131099689;
+			
 			// aapt resource value: 0x7f060025
 			public const int thumbLayout = 2131099685;
 			
@@ -199,6 +205,12 @@ namespace App1
 			
 			// aapt resource value: 0x7f060017
 			public const int txtTask = 2131099671;
+			
+			// aapt resource value: 0x7f060026
+			public const int txtTaskID = 2131099686;
+			
+			// aapt resource value: 0x7f060027
+			public const int txtTaskId = 2131099687;
 			
 			static Id()
 			{
@@ -235,7 +247,16 @@ namespace App1
 			public const int range_navigator_layout = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Vraag1_Layout = 2130903047;
+			public const int RemoveTask_Layout = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int SearchLayout = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int UpdateTaskLayout = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int Vraag1_Layout = 2130903050;
 			
 			static Layout()
 			{
