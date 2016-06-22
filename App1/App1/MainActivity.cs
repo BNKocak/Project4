@@ -30,10 +30,17 @@ namespace Phoneword
             Button button5 = FindViewById<Button>(Resource.Id.Vraag5);
             Button button6 = FindViewById<Button>(Resource.Id.Vraag6);
             Button button7 = FindViewById<Button>(Resource.Id.Vraag7);
+            Button btnDatabase = FindViewById<Button>(Resource.Id.btnDatabase);
 
             button1.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(Vraag1_Activity));
+                StartActivity(intent);
+            };
+
+            btnDatabase.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(database_Activity));
                 StartActivity(intent);
             };
 

@@ -100,6 +100,10 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "App1.dll" comes first in this list. */
 		"App1.dll",
 		"Java.Interop.dll",
+		"SQLite-net.dll",
+		"SQLitePCL.batteries.dll",
+		"SQLitePCL.raw.dll",
+		"SQLitePCLPlugin_esqlite3.dll",
 		"Syncfusion.Linq.Android.dll",
 		"Syncfusion.SfChart.Android.dll",
 		"System.Threading.dll",
@@ -113,6 +117,9 @@ class MonoPackageManager_Resources {
 		"System.Runtime.Extensions.dll",
 		"System.Reflection.Extensions.dll",
 		"System.ServiceModel.Internals.dll",
+		"System.Linq.Expressions.dll",
+		"System.Threading.Tasks.dll",
+		"System.Resources.ResourceManager.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

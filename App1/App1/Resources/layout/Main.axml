@@ -49,4 +49,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Vraag7" />
+    <Button
+        android:text="Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDatabase"
+        android:layout_marginTop="70px" />
 </LinearLayout>
