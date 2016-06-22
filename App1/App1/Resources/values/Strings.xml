@@ -2,4 +2,5 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">App1</string>
+    <string name="Vraag1">De 5 buurten met de meeste fietstrommels</string>
 </resources>

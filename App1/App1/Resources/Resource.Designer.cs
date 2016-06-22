@@ -60,29 +60,29 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050003
-			public const int CallButton = 2131034115;
-			
 			// aapt resource value: 0x7f050001
 			public const int PhoneNumberText = 2131034113;
 			
 			// aapt resource value: 0x7f050002
-			public const int TranslateButton = 2131034114;
+			public const int Vraag1 = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int Vraag2 = 2131034115;
 			
 			// aapt resource value: 0x7f050004
-			public const int button1 = 2131034116;
+			public const int Vraag3 = 2131034116;
 			
 			// aapt resource value: 0x7f050005
-			public const int button2 = 2131034117;
+			public const int Vraag4 = 2131034117;
 			
 			// aapt resource value: 0x7f050006
-			public const int button3 = 2131034118;
+			public const int Vraag5 = 2131034118;
 			
 			// aapt resource value: 0x7f050007
-			public const int button4 = 2131034119;
+			public const int Vraag6 = 2131034119;
 			
 			// aapt resource value: 0x7f050008
-			public const int button5 = 2131034120;
+			public const int Vraag7 = 2131034120;
 			
 			// aapt resource value: 0x7f050000
 			public const int textView1 = 2131034112;
@@ -121,6 +121,9 @@ namespace App1
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int Vraag1 = 2130968578;
 			
 			static String()
 			{
