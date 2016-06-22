@@ -74,8 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="database_Activity.cs" />
+    <Compile Include="InsertTask_Activity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ORM\DBRepository.cs" />
+    <Compile Include="ORM\ToDoTask.cs" />
     <Compile Include="person.cs" />
     <Compile Include="PhoneTranslator.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -93,6 +95,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Database.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\InsertTaskLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

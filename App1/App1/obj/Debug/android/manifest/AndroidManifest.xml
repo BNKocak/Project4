@@ -6,13 +6,14 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="App1" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="Fiets Info Rotterdam" android:name="md59ee03f96374e55088b8f4b8795372cd4.MainActivity">
+    <activity android:label="sBike" android:name="md59ee03f96374e55088b8f4b8795372cd4.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
     <activity android:label="Database" android:name="md5579855c995bdb073d8182511e793544c.database_Activity" />
+    <activity android:label="InsertTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.InsertTask_Activity" />
     <activity android:label="@string/Vraag1" android:name="md5579855c995bdb073d8182511e793544c.Vraag1_Activity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App1.App1.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->

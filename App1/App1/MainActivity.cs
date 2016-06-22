@@ -10,10 +10,9 @@ using Com.Syncfusion.Charts;
 
 namespace Phoneword
 {
-    [Activity(Label = "Fiets Info Rotterdam", MainLauncher = true)]
+    [Activity(Label = "sBike", MainLauncher = true)]
     public class MainActivity : Activity
     {
-        //SfChart sfchart;
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -22,7 +21,7 @@ namespace Phoneword
             SetContentView(Resource.Layout.Main);
 
             // Our code will go here
-            EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
+            //EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
             Button button1 = FindViewById<Button>(Resource.Id.Vraag1);
             Button button2 = FindViewById<Button>(Resource.Id.Vraag2);
             Button button3 = FindViewById<Button>(Resource.Id.Vraag3);

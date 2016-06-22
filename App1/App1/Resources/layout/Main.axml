@@ -9,16 +9,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1" />
-    <EditText
+    <TextView
+        android:text="Wat wilt je weten?"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/PhoneNumberText"
-        android:text="Wat zou je graag willen weten?" />
+        android:id="@+id/textView2"
+        android:layout_marginTop="10px" />
     <Button
         android:text="De 5 buurten met de meeste fietstrommels"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Vraag1" />
+        android:id="@+id/Vraag1"
+        android:layout_marginTop="10px" />
     <Button
         android:text="Het aantal gestolen fietsen per maand"
         android:layout_width="match_parent"
@@ -50,7 +53,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/Vraag7" />
     <Button
-        android:text="Database"
+        android:text="Database Management"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnDatabase"

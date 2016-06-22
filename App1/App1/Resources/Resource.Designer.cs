@@ -86,35 +86,32 @@ namespace App1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060016
-			public const int PhoneNumberText = 2131099670;
-			
-			// aapt resource value: 0x7f060017
-			public const int Vraag1 = 2131099671;
-			
-			// aapt resource value: 0x7f060018
-			public const int Vraag2 = 2131099672;
-			
 			// aapt resource value: 0x7f060019
-			public const int Vraag3 = 2131099673;
+			public const int Vraag1 = 2131099673;
 			
 			// aapt resource value: 0x7f06001a
-			public const int Vraag4 = 2131099674;
+			public const int Vraag2 = 2131099674;
 			
 			// aapt resource value: 0x7f06001b
-			public const int Vraag5 = 2131099675;
+			public const int Vraag3 = 2131099675;
 			
 			// aapt resource value: 0x7f06001c
-			public const int Vraag6 = 2131099676;
+			public const int Vraag4 = 2131099676;
 			
 			// aapt resource value: 0x7f06001d
-			public const int Vraag7 = 2131099677;
+			public const int Vraag5 = 2131099677;
+			
+			// aapt resource value: 0x7f06001e
+			public const int Vraag6 = 2131099678;
+			
+			// aapt resource value: 0x7f06001f
+			public const int Vraag7 = 2131099679;
 			
 			// aapt resource value: 0x7f060007
 			public const int axisLayout = 2131099655;
 			
-			// aapt resource value: 0x7f060020
-			public const int bottom_labels = 2131099680;
+			// aapt resource value: 0x7f060022
+			public const int bottom_labels = 2131099682;
 			
 			// aapt resource value: 0x7f06000e
 			public const int btnCreateDB = 2131099662;
@@ -122,8 +119,8 @@ namespace App1
 			// aapt resource value: 0x7f06000f
 			public const int btnCreateTable = 2131099663;
 			
-			// aapt resource value: 0x7f06001e
-			public const int btnDatabase = 2131099678;
+			// aapt resource value: 0x7f060020
+			public const int btnDatabase = 2131099680;
 			
 			// aapt resource value: 0x7f060014
 			public const int btnDelete = 2131099668;
@@ -137,6 +134,9 @@ namespace App1
 			// aapt resource value: 0x7f060010
 			public const int btnInstert = 2131099664;
 			
+			// aapt resource value: 0x7f060018
+			public const int btnTask = 2131099672;
+			
 			// aapt resource value: 0x7f060013
 			public const int btnUpdate = 2131099667;
 			
@@ -146,8 +146,8 @@ namespace App1
 			// aapt resource value: 0x7f060001
 			public const int chartTitle = 2131099649;
 			
-			// aapt resource value: 0x7f060021
-			public const int content = 2131099681;
+			// aapt resource value: 0x7f060023
+			public const int content = 2131099683;
 			
 			// aapt resource value: 0x7f060006
 			public const int dataMarkerLayout = 2131099654;
@@ -155,8 +155,8 @@ namespace App1
 			// aapt resource value: 0x7f060003
 			public const int gridLineLayout = 2131099651;
 			
-			// aapt resource value: 0x7f060022
-			public const int gridLinesLayout = 2131099682;
+			// aapt resource value: 0x7f060024
+			public const int gridLinesLayout = 2131099684;
 			
 			// aapt resource value: 0x7f06000c
 			public const int iconView = 2131099660;
@@ -188,11 +188,17 @@ namespace App1
 			// aapt resource value: 0x7f060015
 			public const int textView1 = 2131099669;
 			
-			// aapt resource value: 0x7f060023
-			public const int thumbLayout = 2131099683;
+			// aapt resource value: 0x7f060016
+			public const int textView2 = 2131099670;
 			
-			// aapt resource value: 0x7f06001f
-			public const int top_labels = 2131099679;
+			// aapt resource value: 0x7f060025
+			public const int thumbLayout = 2131099685;
+			
+			// aapt resource value: 0x7f060021
+			public const int top_labels = 2131099681;
+			
+			// aapt resource value: 0x7f060017
+			public const int txtTask = 2131099671;
 			
 			static Id()
 			{
@@ -220,13 +226,16 @@ namespace App1
 			public const int Database = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int InsertTaskLayout = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int range_navigator_layout = 2130903045;
+			public const int Main = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Vraag1_Layout = 2130903046;
+			public const int range_navigator_layout = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Vraag1_Layout = 2130903047;
 			
 			static Layout()
 			{

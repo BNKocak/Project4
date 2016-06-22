@@ -6,6 +6,10 @@ App1.database_Activity, App1;md5579855c995bdb073d8182511e793544c.database_Activi
 App1.database_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.database_Activity
 App1.database_Activity;md5579855c995bdb073d8182511e793544c.database_Activity
 app1.database_Activity;md5579855c995bdb073d8182511e793544c.database_Activity
+App1.InsertTask_Activity, App1;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
+App1.InsertTask_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
+App1.InsertTask_Activity;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
+app1.InsertTask_Activity;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
 App1.Vraag1_Activity, App1;md5579855c995bdb073d8182511e793544c.Vraag1_Activity
 App1.Vraag1_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.Vraag1_Activity
 App1.Vraag1_Activity;md5579855c995bdb073d8182511e793544c.Vraag1_Activity
