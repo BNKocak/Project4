@@ -20,10 +20,30 @@ namespace App1
         {
 
             base.OnCreate(savedInstanceState);
-            var iChart = new iChart();
+            SfChart chart = new SfChart(this);
 
-            SfChart chart = iChart.Create(this, "Bar");
-            
+            //Initializing Primary Axis
+
+            CategoryAxis primaryAxis = new CategoryAxis();
+
+            primaryAxis.Title.Text = "Month";
+
+            chart.PrimaryAxis = primaryAxis;
+
+            //Initializing Secondary Axis
+
+            NumericalAxis secondaryAxis = new NumericalAxis();
+
+            secondaryAxis.Title.Text = "Temperature";
+
+            chart.SecondaryAxis = secondaryAxis;
+
+            DataModel dataModel = new DataModel();
+            chart.Series.Add(new ColumnSeries()
+            {
+                DataSource = dataModel.HighTemperature
+            });
+
             SetContentView(chart);
         }
     }
