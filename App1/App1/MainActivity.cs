@@ -37,25 +37,6 @@ namespace Phoneword
                 StartActivity(intent);
             };
 
-            button2.Click += (sender, e) =>
-            {
-                var intent = new Intent(this, typeof(Vraag2_Activity));
-                StartActivity(intent);
-            };
-
-            button3.Click += (sender, e) =>
-            {
-                var intent = new Intent(this, typeof(Vraag3_Activity));
-                StartActivity(intent);
-            };
-
-            button4.Click += (sender, e) =>
-            {
-                var intent = new Intent(this, typeof(Vraag4_Activity));
-                StartActivity(intent);
-            };
-
-
             btnDatabase.Click += (sender, e) =>
             {
                 var intent = new Intent(this, typeof(database_Activity));
