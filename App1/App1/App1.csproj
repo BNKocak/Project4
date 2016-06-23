@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="database_Activity.cs" />
+    <Compile Include="iChart.cs" />
     <Compile Include="InsertTask_Activity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ORM\DBRepository.cs" />
@@ -88,6 +89,12 @@
     <Compile Include="Search_Activity.cs" />
     <Compile Include="UpdateTask_Activity.cs" />
     <Compile Include="Vraag1_Activity.cs" />
+    <Compile Include="Vraag2_Activity.cs" />
+    <Compile Include="Vraag3_Activity.cs" />
+    <Compile Include="Vraag4_Activity.cs" />
+    <Compile Include="Vraag5_Activity.cs" />
+    <Compile Include="Vraag6_Activity.cs" />
+    <Compile Include="Vraag7_Activity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
