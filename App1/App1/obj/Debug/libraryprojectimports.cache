@@ -2,24 +2,23 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.Linq.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.SfChart.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.Linq.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.SfChart.Android\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.Linq.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.batteries\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.raw\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.batteries.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.Linq.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.SfChart.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.batteries.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCL.raw.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.Linq.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Burhan Kocak\Documents\GitHub\Project4\App1\App1\obj\Debug\__library_projects__\Syncfusion.SfChart.Android.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
