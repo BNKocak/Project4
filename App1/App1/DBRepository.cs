@@ -10,6 +10,7 @@ namespace App1
         //code to create the database
         public string CreateDB()
         {
+            
             var output = "";
             output += "Creating Database if it doesnt exist.";
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
@@ -25,7 +26,7 @@ namespace App1
             {
                 string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
                 var db = new SQLiteConnection(dbPath);
-                db.CreateTable<ToDoTask>();
+                db.CreateTable<Fietstrommels>();
                 string result = "Table Created successfully..";
                 return result;     
             }
@@ -36,17 +37,27 @@ namespace App1
         }
 
         // Code to insert record
-        public string InsertRecord(string task)
+        public string InsertRecord(string[] row)
         {
             try
             {
                 string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
                 var db = new SQLiteConnection(dbPath);
 
-                ToDoTask item = new ToDoTask();
-                item.Task = task;
+                Fietstrommels item = new Fietstrommels();
+                item.InvNr          = row[0];
+                item.InvSrt         = row[1];
+                item.Omschrijving   = row[2];
+                item.Straat         = row[3];
+                item.Thv            = row[4];
+                item.XCoord         = float.Parse(row[5]);
+                item.YCoord         = float.Parse(row[6]);
+                item.Deelgemeente   = row[7];
+                item.Status         = row[8];
+                item.MutDatum       = row[9];
+                item.User           = row[10];
                 db.Insert(item);
-                return "Record Added...";
+                return "Records Added...";
             }
             catch (Exception ex)
             {
@@ -62,10 +73,11 @@ namespace App1
 
             string output = "";
             output += "Retrieving the data using ORM...";
-            var table = db.Table<ToDoTask>();
+            //var table = db.Query("SELECT COUNT(*),Deelgemeente from Fietstrommels GROUP BY Deelgemeente ORDER BY COUNT(*) DESC LIMIT 5", null);
+            var table = db.Table<Fietstrommels>();
             foreach (var item in table)
             {
-                output += "\n" + item.Id + " --- " + item.Task;
+                output += "\n" + item.Deelgemeente + " --- ";
             }
             return output;
         }

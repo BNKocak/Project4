@@ -102,5 +102,6 @@ C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\S
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Transactions.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\Fietstrommels.csv
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\obj\Debug\App1.dll.mdb
 C:\Users\Xio Mara\Documents\GitHub\Project4\App1\App1\bin\Debug\App1.dll.mdb

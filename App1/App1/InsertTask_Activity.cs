@@ -26,10 +26,10 @@ namespace App1
 
         void btnAdd_Click(object sender, EventArgs e)
         {
-            EditText txtTask = FindViewById<EditText>(Resource.Id.txtTask);
-            DBRepository dbr = new DBRepository();
-            string result = dbr.InsertRecord(txtTask.Text);
-            Toast.MakeText(this, result, ToastLength.Short).Show();
+            //EditText txtTask = FindViewById<EditText>(Resource.Id.txtTask);
+            //DBRepository dbr = new DBRepository();
+            //string result = dbr.InsertRecord(txtTask.Text);
+            //Toast.MakeText(this, result, ToastLength.Short).Show();
             
         }
     }

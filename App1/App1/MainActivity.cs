@@ -16,7 +16,6 @@ namespace Phoneword
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
@@ -30,13 +29,13 @@ namespace Phoneword
             Button button7 = FindViewById<Button>(Resource.Id.Vraag7);
             Button btnDatabase = FindViewById<Button>(Resource.Id.btnDatabase);
 
-            button1.Click += (sender, e) =>
+            button1.Click += (object sender,EventArgs e) =>
             {
                 var intent = new Intent(this, typeof(Vraag1_Activity));
                 StartActivity(intent);
             };
 
-            btnDatabase.Click += (sender, e) =>
+            btnDatabase.Click += (object sender,EventArgs e) =>
             {
                 var intent = new Intent(this, typeof(database_Activity));
                 StartActivity(intent);
