@@ -2,6 +2,8 @@ using System;
 using System.Data;
 using System.IO;
 using SQLite;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace App1
 {
@@ -90,6 +92,20 @@ namespace App1
 
             var item = db.Get<ToDoTask>(id);
             return item.Task;
+        }
+
+         public string GetVraag1()
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+            string output = "";
+
+            var item = db.Query<Fietstrommels>("SELECT COUNT(*),Deelgemeente from Fietstrommels GROUP BY Deelgemeente ORDER BY COUNT(*) DESC LIMIT 5", null);
+            foreach(var row in item)
+            {
+                output += "\n" + row.InvNr + " --- ";
+            }
+            return output;
         }
 
         //code to update the record using ORM

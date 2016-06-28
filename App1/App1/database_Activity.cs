@@ -76,7 +76,9 @@ namespace App1
         }
         void btnGetById_Click(object sender, EventArgs e)
         {
-            StartActivity(typeof(Search_Activity));
+            DBRepository dbr = new DBRepository();
+            var result = dbr.GetVraag1();
+            Toast.MakeText(this, result, ToastLength.Short).Show();
         }
         void btnGetAll_Click(object sender, EventArgs e)
         {
