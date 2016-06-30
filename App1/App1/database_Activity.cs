@@ -16,20 +16,42 @@ namespace App1
     [Activity(Label = "Database")]
     public class database_Activity : Activity
     {
-        List<string[]> ReadandParseData(string path, char seperator)
+        DBRepository connection = new DBRepository();
+
+        void ReadandParseData(string path, char seperator)
         {
             var parsedData = new List<string[]>();
             string[] test = File.ReadAllLines(path);
+            int cnt = 0;
+            int cnt2 = 0;
             using (var sr = new StreamReader(path))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    string[] row = line.Split(seperator);
-                    parsedData.Add(row);
+                    //cnt++;
+                    //string[] row = line.Split(seperator);
+                    //parsedData.Add(row);
+                    
+                    if (cnt > 2000)
+                    {
+                        foreach (string[] row in parsedData)
+                        {
+                            connection.InsertRecord(row);
+                        }
+                        parsedData.Clear();
+                        cnt = 0;
+                    }
+                    else
+                    {
+                        cnt++;
+                        string[] row = line.Split(seperator);
+                        parsedData.Add(row);
+                        cnt2++;
+                    }
                 }
+                Toast.MakeText(this, "Amount of records added: in Fietsdiefstal" + cnt2.ToString(), ToastLength.Short).Show();
             }
-            return parsedData;
         }
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -86,7 +108,6 @@ namespace App1
             var result = dbr.GetAllRecords();
             Toast.MakeText(this, result, ToastLength.Short).Show();
         }
-
         static void ExploreDirectories(string root)
         {
             var directories = Directory.GetDirectories(root);
@@ -100,22 +121,38 @@ namespace App1
         void btnAddRecord_Click(object sender, EventArgs e)
         {
             //StartActivity(typeof(InsertTask_Activity));
-            DBRepository dbr = new DBRepository();
+            //DBRepository dbr = new DBRepository();
             //string csvdir = System.Environment.CurrentDirectory;
             //ExploreDirectories("/storage/extSdCard");
-            string csvpath = Path.Combine("/storage/extSdCard", "Fietstrommels.csv");
+            
+            string csvpath1 = Path.Combine("/storage/extSdCard", "Fietstrommels.csv");
+            string csvpath2 = Path.Combine("/storage/extSdCard", "fietsdiefstal-rotterdam-2011-2013.csv");
+
             //var x = Directory.GetDirectories(csvdir);
             //string[] test = File.ReadAllLines(csvpath);
             //string[] files = Directory.GetFiles(csvdir);
             //File.Copy("Fietstrommels.csv", csvpath);
-            List<string[]> parsedData = ReadandParseData(csvpath, ',');
-            int cnt = 0;
-            foreach (string[] row in parsedData)
-            {
-                cnt++;
-                string result = dbr.InsertRecord(row);
-            }
-            Toast.MakeText(this, "Amount of records : " + cnt.ToString(), ToastLength.Short).Show();
+
+            ReadandParseData(csvpath1, ',');
+            ReadandParseData(csvpath2, ',');
+
+            int cnt1 = 0;
+            //int cnt2 = 0;
+
+            //foreach (string[] row in parsedData1)
+            //{
+            //    cnt1++;
+            //    string result = dbr.InsertRecord(row);
+            //}
+
+            //foreach (string[] row in parsedData2)
+            //{
+            //    cnt2++;
+            //    string result = dbr.InsertRecord(row);
+            //}
+
+            //Toast.MakeText(this, "Amount of records added: in Fietstrommels " + cnt1.ToString(), ToastLength.Short).Show();
+            //Toast.MakeText(this, "Amount of records added: in Fietsdiefstal" + cnt2.ToString(), ToastLength.Short).Show();
         }
         void btnCreateTable_Click(Object sender, EventArgs e)
         {
@@ -128,6 +165,15 @@ namespace App1
             DBRepository dbr = new DBRepository();
             var result = dbr.CreateDB();
             Toast.MakeText(this, result, ToastLength.Short).Show();
+
+        }
+        void cc(List<string[]> parseddata)
+        {
+            DBRepository dbr = new DBRepository();
+            foreach (string[] row in parseddata)
+            {
+                dbr.InsertRecord(row);
+            }
 
         }
     }

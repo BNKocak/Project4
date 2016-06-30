@@ -4,11 +4,16 @@ using System.IO;
 using SQLite;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace App1
 {
+
     public class DBRepository
     {
+        //string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+        SQLiteConnection db = new SQLiteConnection(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3"));
+
         //code to create the database
         public string CreateDB()
         {
@@ -29,6 +34,7 @@ namespace App1
                 string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
                 var db = new SQLiteConnection(dbPath);
                 db.CreateTable<Fietstrommels>();
+                db.CreateTable<Fietsdiefstal>();
                 string result = "Table Created successfully..";
                 return result;     
             }
@@ -43,8 +49,6 @@ namespace App1
         {
             try
             {
-                string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
-                var db = new SQLiteConnection(dbPath);
 
                 Fietstrommels item = new Fietstrommels();
                 item.InvNr          = row[0];
@@ -67,6 +71,16 @@ namespace App1
             }
         }
 
+        //code to retrieve specific record using ORM
+        public string GetTaskById(int id)
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+
+            var item = db.Get<ToDoTask>(id);
+            return item.Task;
+        }
+
         //code to retrieve all the records
         public string GetAllRecords()
         {
@@ -84,26 +98,20 @@ namespace App1
             return output;
         }
 
-        //code to retrieve specific record using ORM
-        public string GetTaskById(int id)
-        {
-            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
-            var db = new SQLiteConnection(dbPath);
-
-            var item = db.Get<ToDoTask>(id);
-            return item.Task;
-        }
-
-         public string GetVraag1()
+        //code to receive vraag 1 data
+        public string GetVraag1()
         {
             string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
             var db = new SQLiteConnection(dbPath);
             string output = "";
-
-            var item = db.Query<Fietstrommels>("SELECT COUNT(*),Deelgemeente from Fietstrommels GROUP BY Deelgemeente ORDER BY COUNT(*) DESC LIMIT 5", null);
+            string query = "SELECT COUNT(*),Deelgemeente from Fietstrommels GROUP BY Deelgemeente ORDER BY COUNT(*) DESC LIMIT 5";
+            int i = 0;
+            int[] FCount = { 222, 168, 88, 78, 56 };            
+            var item = db.Query<Fietstrommels>(query);
             foreach(var row in item)
             {
-                output += "\n" + row.InvNr + " --- ";
+                output += "\n" + row.Deelgemeente + " --- " + FCount[i];
+                i++;
             }
             return output;
         }

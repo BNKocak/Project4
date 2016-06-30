@@ -1,18 +1,38 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
 using Android.App;
 using Android.Content;
+using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Android.OS;
+using System.IO;
 using App1;
-using Com.Syncfusion.Charts;
 
 namespace Phoneword
 {
     [Activity(Label = "sBike", MainLauncher = true)]
     public class MainActivity : Activity
     {
+        List<string[]> ReadandParseData(string path, char seperator)
+        {
+            var parsedData = new List<string[]>();
+            string[] test = File.ReadAllLines(path);
+            using (var sr = new StreamReader(path))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] row = line.Split(seperator);
+                    parsedData.Add(row);
+                }
+            }
+            return parsedData;
+        }
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -40,6 +60,7 @@ namespace Phoneword
                 var intent = new Intent(this, typeof(database_Activity));
                 StartActivity(intent);
             };
+
         }
     }
 }

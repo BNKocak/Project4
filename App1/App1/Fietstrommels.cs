@@ -39,5 +39,8 @@ namespace App1
 
         [Column("User")]
         public string User { get; set; }
+
+        [Column("FCount")]
+        public int FCount { get; set; }
     }
 }

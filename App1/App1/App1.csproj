@@ -74,6 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="database_Activity.cs" />
+    <Compile Include="Fietsdiefstal.cs" />
     <Compile Include="Fietstrommels.cs" />
     <Compile Include="InsertTask_Activity.cs" />
     <Compile Include="MainActivity.cs" />
