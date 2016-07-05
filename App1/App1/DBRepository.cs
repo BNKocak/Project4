@@ -62,6 +62,47 @@ namespace App1
                 item.Status         = row[8];
                 item.MutDatum       = row[9];
                 item.User           = row[10];
+                item.FCount         = 0;
+                db.Insert(item);
+                return "Records Added...";
+            }
+            catch (Exception ex)
+            {
+                return "Error : " + ex.Message;
+            }
+        }
+
+        public string InsertDiefstal(string[] row)
+        {
+            try
+            {
+
+                Fietsdiefstal item = new Fietsdiefstal();
+                item.VNr = row[0];
+                item.Kennisname = row[1];
+                item.MK = row[2];
+                item.MKOmschrijving = row[3];
+                item.Poging = row[4];
+                item.District = row[5];
+                item.Werkgebied = row[6];
+                item.Plaats = row[7];
+                item.Buurt = row[8];
+                item.Straat = row[9];
+                item.BeginDagsoort = row[10];
+                item.BeginDatum = row[11];
+                item.BeginTijd = row[12];
+                item.EindDagsoort = row[13];
+                item.EindDatum = row[14];
+                item.EindTijd = row[15];
+                item.GemJaar = row[16];
+                item.GemMaand = row[17];
+                item.GemDagsoort = row[18];
+                item.GemDagsoortUren = row[19];
+                item.Trefwoord = row[20];
+                item.Object = row[21];
+                item.Merk = row[22];
+                item.Type = row[23];
+                item.Kleur = row[24];
                 db.Insert(item);
                 return "Records Added...";
             }
