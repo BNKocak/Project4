@@ -84,6 +84,7 @@
     </activity>
     <activity android:label="Database" android:name="md5579855c995bdb073d8182511e793544c.database_Activity" />
     <activity android:label="InsertTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.InsertTask_Activity" />
+    <activity android:label="Location" android:name="md5579855c995bdb073d8182511e793544c.Note_Activity" />
     <activity android:label="RemoveTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.RemoveTask_Activity" />
     <activity android:label="Search_Activity" android:name="md5579855c995bdb073d8182511e793544c.Search_Activity" />
     <activity android:label="UpdateTask_Activity" android:name="md5579855c995bdb073d8182511e793544c.UpdateTask_Activity" />

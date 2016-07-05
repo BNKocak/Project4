@@ -79,6 +79,7 @@
     <Compile Include="InsertTask_Activity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="DBRepository.cs" />
+    <Compile Include="Note_Activity.cs" />
     <Compile Include="ToDoTask.cs" />
     <Compile Include="RemoveTask_Activity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -113,6 +114,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\RemoveTask_Layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Note.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

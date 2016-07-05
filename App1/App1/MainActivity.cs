@@ -48,6 +48,7 @@ namespace Phoneword
             Button button6 = FindViewById<Button>(Resource.Id.Vraag6);
             Button button7 = FindViewById<Button>(Resource.Id.Vraag7);
             Button btnDatabase = FindViewById<Button>(Resource.Id.btnDatabase);
+            Button btnSaveLocation = FindViewById<Button>(Resource.Id.btnSaveLocation);
 
             button1.Click += (object sender,EventArgs e) =>
             {
@@ -61,6 +62,11 @@ namespace Phoneword
                 StartActivity(intent);
             };
 
+            btnSaveLocation.Click += (object sender, EventArgs e) =>
+            {
+                var intent = new Intent(this, typeof(Note_Activity));
+                StartActivity(intent);
+            };
         }
     }
 }

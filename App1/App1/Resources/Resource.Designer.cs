@@ -107,11 +107,14 @@ namespace App1
 			// aapt resource value: 0x7f06001f
 			public const int Vraag7 = 2131099679;
 			
+			// aapt resource value: 0x7f060024
+			public const int address_text = 2131099684;
+			
 			// aapt resource value: 0x7f060007
 			public const int axisLayout = 2131099655;
 			
-			// aapt resource value: 0x7f060022
-			public const int bottom_labels = 2131099682;
+			// aapt resource value: 0x7f060026
+			public const int bottom_labels = 2131099686;
 			
 			// aapt resource value: 0x7f06000e
 			public const int btnCreateDB = 2131099662;
@@ -134,8 +137,11 @@ namespace App1
 			// aapt resource value: 0x7f060010
 			public const int btnInstert = 2131099664;
 			
-			// aapt resource value: 0x7f060028
-			public const int btnSearch = 2131099688;
+			// aapt resource value: 0x7f060021
+			public const int btnSaveLocation = 2131099681;
+			
+			// aapt resource value: 0x7f06002c
+			public const int btnSearch = 2131099692;
 			
 			// aapt resource value: 0x7f060018
 			public const int btnTask = 2131099672;
@@ -149,17 +155,20 @@ namespace App1
 			// aapt resource value: 0x7f060001
 			public const int chartTitle = 2131099649;
 			
-			// aapt resource value: 0x7f060023
-			public const int content = 2131099683;
+			// aapt resource value: 0x7f060027
+			public const int content = 2131099687;
 			
 			// aapt resource value: 0x7f060006
 			public const int dataMarkerLayout = 2131099654;
 			
+			// aapt resource value: 0x7f060023
+			public const int get_address_button = 2131099683;
+			
 			// aapt resource value: 0x7f060003
 			public const int gridLineLayout = 2131099651;
 			
-			// aapt resource value: 0x7f060024
-			public const int gridLinesLayout = 2131099684;
+			// aapt resource value: 0x7f060028
+			public const int gridLinesLayout = 2131099688;
 			
 			// aapt resource value: 0x7f06000c
 			public const int iconView = 2131099660;
@@ -179,6 +188,9 @@ namespace App1
 			// aapt resource value: 0x7f060008
 			public const int legendViewGroup = 2131099656;
 			
+			// aapt resource value: 0x7f060022
+			public const int location_text = 2131099682;
+			
 			// aapt resource value: 0x7f060000
 			public const int rootLayout = 2131099648;
 			
@@ -194,23 +206,23 @@ namespace App1
 			// aapt resource value: 0x7f060016
 			public const int textView2 = 2131099670;
 			
+			// aapt resource value: 0x7f06002d
+			public const int textView3 = 2131099693;
+			
 			// aapt resource value: 0x7f060029
-			public const int textView3 = 2131099689;
+			public const int thumbLayout = 2131099689;
 			
 			// aapt resource value: 0x7f060025
-			public const int thumbLayout = 2131099685;
-			
-			// aapt resource value: 0x7f060021
-			public const int top_labels = 2131099681;
+			public const int top_labels = 2131099685;
 			
 			// aapt resource value: 0x7f060017
 			public const int txtTask = 2131099671;
 			
-			// aapt resource value: 0x7f060026
-			public const int txtTaskID = 2131099686;
+			// aapt resource value: 0x7f06002a
+			public const int txtTaskID = 2131099690;
 			
-			// aapt resource value: 0x7f060027
-			public const int txtTaskId = 2131099687;
+			// aapt resource value: 0x7f06002b
+			public const int txtTaskId = 2131099691;
 			
 			static Id()
 			{
@@ -244,19 +256,22 @@ namespace App1
 			public const int Main = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int range_navigator_layout = 2130903046;
+			public const int Note = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int RemoveTask_Layout = 2130903047;
+			public const int range_navigator_layout = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int SearchLayout = 2130903048;
+			public const int RemoveTask_Layout = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int UpdateTaskLayout = 2130903049;
+			public const int SearchLayout = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int Vraag1_Layout = 2130903050;
+			public const int UpdateTaskLayout = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int Vraag1_Layout = 2130903051;
 			
 			static Layout()
 			{

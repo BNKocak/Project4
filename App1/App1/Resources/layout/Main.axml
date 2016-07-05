@@ -58,4 +58,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnDatabase"
         android:layout_marginTop="70px" />
+    <Button
+        android:text="Save Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSaveLocation" />
 </LinearLayout>

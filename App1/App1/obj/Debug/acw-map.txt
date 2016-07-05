@@ -10,6 +10,10 @@ App1.InsertTask_Activity, App1;md5579855c995bdb073d8182511e793544c.InsertTask_Ac
 App1.InsertTask_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
 App1.InsertTask_Activity;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
 app1.InsertTask_Activity;md5579855c995bdb073d8182511e793544c.InsertTask_Activity
+App1.Note_Activity, App1;md5579855c995bdb073d8182511e793544c.Note_Activity
+App1.Note_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.Note_Activity
+App1.Note_Activity;md5579855c995bdb073d8182511e793544c.Note_Activity
+app1.Note_Activity;md5579855c995bdb073d8182511e793544c.Note_Activity
 App1.RemoveTask_Activity, App1;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
 App1.RemoveTask_Activity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
 App1.RemoveTask_Activity;md5579855c995bdb073d8182511e793544c.RemoveTask_Activity
