@@ -73,6 +73,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBAddress.cs" />
     <Compile Include="database_Activity.cs" />
     <Compile Include="Fietsdiefstal.cs" />
     <Compile Include="Fietstrommels.cs" />

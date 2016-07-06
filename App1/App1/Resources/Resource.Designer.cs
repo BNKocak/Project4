@@ -86,6 +86,9 @@ namespace App1
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060028
+			public const int DBAddressText = 2131099688;
+			
 			// aapt resource value: 0x7f060019
 			public const int Vraag1 = 2131099673;
 			
@@ -113,8 +116,8 @@ namespace App1
 			// aapt resource value: 0x7f060007
 			public const int axisLayout = 2131099655;
 			
-			// aapt resource value: 0x7f060026
-			public const int bottom_labels = 2131099686;
+			// aapt resource value: 0x7f06002a
+			public const int bottom_labels = 2131099690;
 			
 			// aapt resource value: 0x7f06000e
 			public const int btnCreateDB = 2131099662;
@@ -128,6 +131,9 @@ namespace App1
 			// aapt resource value: 0x7f060014
 			public const int btnDelete = 2131099668;
 			
+			// aapt resource value: 0x7f060026
+			public const int btnDeleteAddress = 2131099686;
+			
 			// aapt resource value: 0x7f060011
 			public const int btnGetData = 2131099665;
 			
@@ -137,11 +143,17 @@ namespace App1
 			// aapt resource value: 0x7f060010
 			public const int btnInstert = 2131099664;
 			
+			// aapt resource value: 0x7f060025
+			public const int btnSaveAddress = 2131099685;
+			
 			// aapt resource value: 0x7f060021
 			public const int btnSaveLocation = 2131099681;
 			
-			// aapt resource value: 0x7f06002c
-			public const int btnSearch = 2131099692;
+			// aapt resource value: 0x7f060030
+			public const int btnSearch = 2131099696;
+			
+			// aapt resource value: 0x7f060027
+			public const int btnShowLocation = 2131099687;
 			
 			// aapt resource value: 0x7f060018
 			public const int btnTask = 2131099672;
@@ -155,8 +167,8 @@ namespace App1
 			// aapt resource value: 0x7f060001
 			public const int chartTitle = 2131099649;
 			
-			// aapt resource value: 0x7f060027
-			public const int content = 2131099687;
+			// aapt resource value: 0x7f06002b
+			public const int content = 2131099691;
 			
 			// aapt resource value: 0x7f060006
 			public const int dataMarkerLayout = 2131099654;
@@ -167,8 +179,8 @@ namespace App1
 			// aapt resource value: 0x7f060003
 			public const int gridLineLayout = 2131099651;
 			
-			// aapt resource value: 0x7f060028
-			public const int gridLinesLayout = 2131099688;
+			// aapt resource value: 0x7f06002c
+			public const int gridLinesLayout = 2131099692;
 			
 			// aapt resource value: 0x7f06000c
 			public const int iconView = 2131099660;
@@ -206,23 +218,23 @@ namespace App1
 			// aapt resource value: 0x7f060016
 			public const int textView2 = 2131099670;
 			
+			// aapt resource value: 0x7f060031
+			public const int textView3 = 2131099697;
+			
 			// aapt resource value: 0x7f06002d
-			public const int textView3 = 2131099693;
+			public const int thumbLayout = 2131099693;
 			
 			// aapt resource value: 0x7f060029
-			public const int thumbLayout = 2131099689;
-			
-			// aapt resource value: 0x7f060025
-			public const int top_labels = 2131099685;
+			public const int top_labels = 2131099689;
 			
 			// aapt resource value: 0x7f060017
 			public const int txtTask = 2131099671;
 			
-			// aapt resource value: 0x7f06002a
-			public const int txtTaskID = 2131099690;
+			// aapt resource value: 0x7f06002e
+			public const int txtTaskID = 2131099694;
 			
-			// aapt resource value: 0x7f06002b
-			public const int txtTaskId = 2131099691;
+			// aapt resource value: 0x7f06002f
+			public const int txtTaskId = 2131099695;
 			
 			static Id()
 			{

@@ -35,8 +35,24 @@ namespace App1
                 var db = new SQLiteConnection(dbPath);
                 db.CreateTable<Fietstrommels>();
                 db.CreateTable<Fietsdiefstal>();
+                db.CreateTable<DBAddress>();
                 string result = "Table Created successfully..";
                 return result;     
+            }
+            catch (Exception ex)
+            {
+                return "Error : " + ex.Message;
+            }
+        }
+
+        public string InsertAddress(string address)
+        {
+            try
+            {
+                DBAddress item = new DBAddress();
+                item.DBLocation = address;
+                db.Insert(item);
+                return "Saved location";
             }
             catch (Exception ex)
             {
@@ -154,6 +170,30 @@ namespace App1
                 output += "\n" + row.Deelgemeente + " --- " + FCount[i];
                 i++;
             }
+            return output;
+        }
+
+        public string GetLocation()
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+            string output = "";
+            string query = "SELECT * FROM DBAddress";
+            var item = db.Query<DBAddress>(query);
+            foreach (var row in item)
+            {
+                output += row.DBLocation;
+            }
+            return output;
+        }
+
+        public string DeleteLocation()
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);
+            string output = "Removed Location";
+            string query = "DELETE FROM DBAddress";
+            db.Query<DBAddress>(query);
             return output;
         }
 

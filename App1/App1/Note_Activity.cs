@@ -17,9 +17,11 @@ namespace App1
     {
         static readonly string TAG = "X:" + typeof(Note_Activity).Name;
         TextView _addressText;
+        TextView savedAddress;
         Location _currentLocation;
         LocationManager _locationManager;
 
+        DBRepository dbr = new DBRepository();
         string _locationProvider;
         TextView _locationText;
 
@@ -28,7 +30,7 @@ namespace App1
             _currentLocation = location;
             if (_currentLocation == null)
             {
-                _locationText.Text = "Unable to determine your location. Try again in a short while.";
+                _locationText.Text = "Unable to determine your location. Try again in a short whilez.";
             }
             else
             {
@@ -49,9 +51,18 @@ namespace App1
             SetContentView(Resource.Layout.Note);
             // Create your application here
 
+            savedAddress = FindViewById<TextView>(Resource.Id.DBAddressText);
+            Button btnSaveAddress = FindViewById<Button>(Resource.Id.btnSaveAddress);
+            Button btnDeleteAddress = FindViewById<Button>(Resource.Id.btnDeleteAddress);
+            Button btnShowAddress = FindViewById<Button>(Resource.Id.btnShowLocation);
+
             _addressText = FindViewById<TextView>(Resource.Id.address_text);
             _locationText = FindViewById<TextView>(Resource.Id.location_text);
             FindViewById<TextView>(Resource.Id.get_address_button).Click += AddressButton_OnClick;
+
+            btnSaveAddress.Click += btnSaveAddress_OnClick;
+            btnDeleteAddress.Click += btnDeleteAddress_OnClick;
+            btnShowAddress.Click += btnShowAddress_OnClick;
 
             InitializeLocationManager();
         }
@@ -128,6 +139,30 @@ namespace App1
             {
                 _addressText.Text = "Unable to determine the address. Try again in a few minutes.";
             }
+        }
+
+        void btnSaveAddress_OnClick(object sender, EventArgs e)
+        {
+            if (_addressText.Text == "Address (when available)")
+            {
+                Toast.MakeText(this, "Unable to save location", ToastLength.Short).Show();
+            }
+            else
+            {
+                var result = dbr.InsertAddress(_addressText.Text);
+                Toast.MakeText(this, result, ToastLength.Short).Show();
+            }        
+        }
+
+        void btnDeleteAddress_OnClick(object sender, EventArgs e)
+        {
+            var result = dbr.DeleteLocation();
+            Toast.MakeText(this, result, ToastLength.Short).Show();
+        }
+
+        void btnShowAddress_OnClick(object sender, EventArgs e)
+        {
+            savedAddress.Text = dbr.GetLocation();
         }
     }
 }
