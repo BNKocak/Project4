@@ -1,4 +1,4 @@
-        using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,18 +10,18 @@ using Android.Locations;
 using Android.Util;
 using System.Threading.Tasks;
 
-namespace App1
+namespace sBike
 {
-    [Activity(Label = "Location")]
-    public class Note_Activity : Activity, ILocationListener
+    [Activity(Label = "sBike")]
+    public class Activity5 : Activity, ILocationListener
     {
-        static readonly string TAG = "X:" + typeof(Note_Activity).Name;
+        static readonly string TAG = "X:" + typeof(Activity5).Name;
         TextView _addressText;
         TextView savedAddress;
         Location _currentLocation;
         LocationManager _locationManager;
 
-        DBRepository dbr = new DBRepository();
+        DataModel dataModel = new DataModel();
         string _locationProvider;
         TextView _locationText;
 
@@ -41,14 +41,15 @@ namespace App1
         }
         public void OnProviderDisabled(string provider) { }
         public void OnProviderEnabled(string provider) { }
-        public void OnStatusChanged(string provider, Availability status, Bundle extras) {
+        public void OnStatusChanged(string provider, Availability status, Bundle extras)
+        {
             Log.Debug(TAG, "{0}, {1}", provider, status);
         }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.Note);
+            SetContentView(Resource.Layout.Question5_layout);
             // Create your application here
 
             savedAddress = FindViewById<TextView>(Resource.Id.DBAddressText);
@@ -147,22 +148,26 @@ namespace App1
             {
                 Toast.MakeText(this, "Unable to save location", ToastLength.Short).Show();
             }
+            else if (_addressText.Text == "Can't determine the current address. Try again in a few minutes.")
+            {
+                Toast.MakeText(this, "Unable to save location", ToastLength.Short).Show();
+            }
             else
             {
-                var result = dbr.InsertAddress(_addressText.Text);
+                var result = dataModel.InsertAddress(_addressText.Text);
                 Toast.MakeText(this, result, ToastLength.Short).Show();
-            }        
+            }
         }
 
         void btnDeleteAddress_OnClick(object sender, EventArgs e)
         {
-            var result = dbr.DeleteLocation();
+            var result = dataModel.DeleteLocation();
             Toast.MakeText(this, result, ToastLength.Short).Show();
         }
 
         void btnShowAddress_OnClick(object sender, EventArgs e)
         {
-            savedAddress.Text = dbr.GetLocation();
+            savedAddress.Text = dataModel.GetLocation();
         }
     }
 }
